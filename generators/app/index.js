@@ -35,7 +35,6 @@ module.exports = class extends Generator {
 
     // eslint-disable-next-line guard-for-in
     for (let index in files) {
-
       this.fs.copyTpl(
         this.templatePath(files[index]),
         this.destinationPath(
