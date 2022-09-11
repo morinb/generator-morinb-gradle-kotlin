@@ -5,9 +5,12 @@ orbs:
 
 jobs:
   run_tests:
-    executor: node/default
+    docker:
+      - image: cimg/openjdk:11.0-node
     steps:
       - checkout
+      - run: java --version
+      - run: node --version
       - node/install-packages:
           pkg-manager: npm
       - run:
