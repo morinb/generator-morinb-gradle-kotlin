@@ -1,4 +1,4 @@
-# generator-morinb-gradle-kotlin [![NPM version][npm-image]][npm-url] [![Build Status][circleci-image]][circleci-url] [![Coverage percentage][coveralls-image]][coveralls-url]
+# generator-morinb-gradle-kotlin [![NPM version][npm-image]][npm-url] [![Build Status][circleci-image]][circleci-url]
 > Generates a gradle project with gradle and kotlin
 
 ## Installation
@@ -32,5 +32,3 @@ Apache-2.0 © [Baptiste MORIN](https://github.com/morinb)·
 [npm-url]: https://npmjs.org/package/generator-morinb-gradle-kotlin
 [circleci-image]: https://img.shields.io/circleci/build/github/morinb/generator-morinb-gradle-kotlin/master
 [circleci-url]: https://app.circleci.com/pipelines/github/morinb/generator-morinb-gradle-kotlin
-[coveralls-image]: https://coveralls.io/repos/morinb/generator-morinb-gradle-kotlin/badge.svg
-[coveralls-url]: https://coveralls.io/r/morinb/generator-morinb-gradle-kotlin
